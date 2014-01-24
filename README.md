@@ -6,6 +6,7 @@ These are the bug reports I’ve filed with Apple in their [Bug Reporter](http:/
 ### Radars
 1. **15417484**: Game Center Link Is Broken on Apple.com
 2. **15515678**: XCTest Notification Shows Test Failed on Successful Tests
+3. **15516158**: Telephone Number Formatting
 
 ### Support or Contact
 
