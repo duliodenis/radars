@@ -3,6 +3,7 @@
 #### Product: Documentation
 #### State: Duplicate
 #### Duplicate of 15417000 (Closed)
+[OpenRadar](http://openradar.appspot.com/radar?id=5788742962905088)
 
 #### Summary:
 When going to http://www.apple.com/game-center/ the page shows "Hmm, the page you’re looking for can’t be found."

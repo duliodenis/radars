@@ -4,6 +4,7 @@ Dulio Denis <br>20-Nov-2013 01:41 PM
 #### Product:Developer Tools
 #### State:Duplicate
 #### Duplicate of 14828018 (Open)
+[OpenRadar](http://openradar.appspot.com/radar?id=5808190574821376)
 
 #### Summary:
 When executing a single XCTest the Notification will state the "Test Failed" despite the Xcode editor shows it succeeded.  Without changing any code upon the next execution the Notification will come in as "Test Succeeded." The failed notification is intermittent but repeatable upon the most basic of tests.

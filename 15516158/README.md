@@ -3,6 +3,8 @@ Dulio Denis<br>
 20-Nov-2013 02:20 PM
 ####Product: iOS SDK
 ####State: Duplicate of 14909583 (Open)
+[OpenRadar](http://openradar.appspot.com/radar?id=5866945727430656)
+
 
 #### Summary:
 On the iPhone the Apple Contacts App has private API for Phone Number Formatting that is not public.  This is evident when inserting an AddressBook Phone Number Record with a leading one or without having the format correctly handled as 1 (###) ###-#### or (###) ###-####. This is also evident in International phone number strings such as 011-(Country Code)-...  

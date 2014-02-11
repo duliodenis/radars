@@ -3,6 +3,7 @@ Dulio Denis<br>22-Nov-2013 03:33 PM
 
 ####Product: iOS
 ####State: Duplicate of 15461505 (Open)
+[OpenRadar](http://openradar.appspot.com/radar?id=5897650448629760)
 
 ####Summary:
 The iPhone Contacts App needs the ability to add to / remove from groups as well as the ability to Add and Remove Groups themselves.
