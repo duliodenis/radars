@@ -8,6 +8,8 @@ These are the bug reports I’ve filed with Apple in their [Bug Reporter](http:/
 2. **[15515678](https://github.com/duliodenis/radars/tree/master/15515678)**: XCTest Notification Shows Test Failed on Successful Tests
 3. **[15516158](https://github.com/duliodenis/radars/tree/master/15516158)**: Telephone Number Formatting
 4. **[15538371](https://github.com/duliodenis/radars/tree/master/15538371)**: Group Management in iPhone Contacts
+5. **[16153326](https://github.com/duliodenis/radars/tree/master/16153326)**: Allow SKView to have a clearColor backgroundColor property
+4. **[17067738](https://github.com/duliodenis/radars/tree/master/17067738)**: Need to Apply Parallax MotionEffect to a Single View in a Hierarchy
 
 ### Support or Contact
 
