@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C831CA21912B44200545AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C831CA11912B44200545AAC /* Foundation.framework */; };
+		6C831CA41912B44200545AAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C831CA31912B44200545AAC /* CoreGraphics.framework */; };
+		6C831CA61912B44200545AAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C831CA51912B44200545AAC /* UIKit.framework */; };
+		6C831CAC1912B44200545AAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C831CAA1912B44200545AAC /* InfoPlist.strings */; };
+		6C831CAE1912B44200545AAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831CAD1912B44200545AAC /* main.m */; };
+		6C831CB21912B44300545AAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831CB11912B44300545AAC /* AppDelegate.m */; };
+		6C831CB51912B44300545AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C831CB31912B44300545AAC /* Main.storyboard */; };
+		6C831CB81912B44300545AAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831CB71912B44300545AAC /* ViewController.m */; };
+		6C831CBA1912B44300545AAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C831CB91912B44300545AAC /* Images.xcassets */; };
+		6C831CC11912B44300545AAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C831CC01912B44300545AAC /* XCTest.framework */; };
+		6C831CC21912B44300545AAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C831CA11912B44200545AAC /* Foundation.framework */; };
+		6C831CC31912B44300545AAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C831CA51912B44200545AAC /* UIKit.framework */; };
+		6C831CCB1912B44300545AAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C831CC91912B44300545AAC /* InfoPlist.strings */; };
+		6C831CCD1912B44300545AAC /* SpriteKitTransparentBackgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831CCC1912B44300545AAC /* SpriteKitTransparentBackgroundTests.m */; };
+		6C831CD71912B64900545AAC /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C831CD61912B64900545AAC /* SpriteKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C831CC41912B44300545AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C831C961912B44200545AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C831C9D1912B44200545AAC;
+			remoteInfo = SpriteKitTransparentBackground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C831C9E1912B44200545AAC /* SpriteKitTransparentBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitTransparentBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C831CA11912B44200545AAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C831CA31912B44200545AAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C831CA51912B44200545AAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C831CA91912B44200545AAC /* SpriteKitTransparentBackground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitTransparentBackground-Info.plist"; sourceTree = "<group>"; };
+		6C831CAB1912B44200545AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C831CAD1912B44200545AAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C831CAF1912B44200545AAC /* SpriteKitTransparentBackground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteKitTransparentBackground-Prefix.pch"; sourceTree = "<group>"; };
+		6C831CB01912B44300545AAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C831CB11912B44300545AAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C831CB41912B44300545AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C831CB61912B44300545AAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C831CB71912B44300545AAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C831CB91912B44300545AAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C831CBF1912B44300545AAC /* SpriteKitTransparentBackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitTransparentBackgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C831CC01912B44300545AAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6C831CC81912B44300545AAC /* SpriteKitTransparentBackgroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitTransparentBackgroundTests-Info.plist"; sourceTree = "<group>"; };
+		6C831CCA1912B44300545AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C831CCC1912B44300545AAC /* SpriteKitTransparentBackgroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitTransparentBackgroundTests.m; sourceTree = "<group>"; };
+		6C831CD61912B64900545AAC /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C831C9B1912B44200545AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C831CD71912B64900545AAC /* SpriteKit.framework in Frameworks */,
+				6C831CA41912B44200545AAC /* CoreGraphics.framework in Frameworks */,
+				6C831CA61912B44200545AAC /* UIKit.framework in Frameworks */,
+				6C831CA21912B44200545AAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C831CBC1912B44300545AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C831CC11912B44300545AAC /* XCTest.framework in Frameworks */,
+				6C831CC31912B44300545AAC /* UIKit.framework in Frameworks */,
+				6C831CC21912B44300545AAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C831C951912B44200545AAC = {
+			isa = PBXGroup;
+			children = (
+				6C831CA71912B44200545AAC /* SpriteKitTransparentBackground */,
+				6C831CC61912B44300545AAC /* SpriteKitTransparentBackgroundTests */,
+				6C831CA01912B44200545AAC /* Frameworks */,
+				6C831C9F1912B44200545AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C831C9F1912B44200545AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C831C9E1912B44200545AAC /* SpriteKitTransparentBackground.app */,
+				6C831CBF1912B44300545AAC /* SpriteKitTransparentBackgroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C831CA01912B44200545AAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C831CD61912B64900545AAC /* SpriteKit.framework */,
+				6C831CA11912B44200545AAC /* Foundation.framework */,
+				6C831CA31912B44200545AAC /* CoreGraphics.framework */,
+				6C831CA51912B44200545AAC /* UIKit.framework */,
+				6C831CC01912B44300545AAC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C831CA71912B44200545AAC /* SpriteKitTransparentBackground */ = {
+			isa = PBXGroup;
+			children = (
+				6C831CB01912B44300545AAC /* AppDelegate.h */,
+				6C831CB11912B44300545AAC /* AppDelegate.m */,
+				6C831CB31912B44300545AAC /* Main.storyboard */,
+				6C831CB61912B44300545AAC /* ViewController.h */,
+				6C831CB71912B44300545AAC /* ViewController.m */,
+				6C831CB91912B44300545AAC /* Images.xcassets */,
+				6C831CA81912B44200545AAC /* Supporting Files */,
+			);
+			path = SpriteKitTransparentBackground;
+			sourceTree = "<group>";
+		};
+		6C831CA81912B44200545AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C831CA91912B44200545AAC /* SpriteKitTransparentBackground-Info.plist */,
+				6C831CAA1912B44200545AAC /* InfoPlist.strings */,
+				6C831CAD1912B44200545AAC /* main.m */,
+				6C831CAF1912B44200545AAC /* SpriteKitTransparentBackground-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C831CC61912B44300545AAC /* SpriteKitTransparentBackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C831CCC1912B44300545AAC /* SpriteKitTransparentBackgroundTests.m */,
+				6C831CC71912B44300545AAC /* Supporting Files */,
+			);
+			path = SpriteKitTransparentBackgroundTests;
+			sourceTree = "<group>";
+		};
+		6C831CC71912B44300545AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C831CC81912B44300545AAC /* SpriteKitTransparentBackgroundTests-Info.plist */,
+				6C831CC91912B44300545AAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C831C9D1912B44200545AAC /* SpriteKitTransparentBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C831CD01912B44300545AAC /* Build configuration list for PBXNativeTarget "SpriteKitTransparentBackground" */;
+			buildPhases = (
+				6C831C9A1912B44200545AAC /* Sources */,
+				6C831C9B1912B44200545AAC /* Frameworks */,
+				6C831C9C1912B44200545AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteKitTransparentBackground;
+			productName = SpriteKitTransparentBackground;
+			productReference = 6C831C9E1912B44200545AAC /* SpriteKitTransparentBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C831CBE1912B44300545AAC /* SpriteKitTransparentBackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C831CD31912B44300545AAC /* Build configuration list for PBXNativeTarget "SpriteKitTransparentBackgroundTests" */;
+			buildPhases = (
+				6C831CBB1912B44300545AAC /* Sources */,
+				6C831CBC1912B44300545AAC /* Frameworks */,
+				6C831CBD1912B44300545AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C831CC51912B44300545AAC /* PBXTargetDependency */,
+			);
+			name = SpriteKitTransparentBackgroundTests;
+			productName = SpriteKitTransparentBackgroundTests;
+			productReference = 6C831CBF1912B44300545AAC /* SpriteKitTransparentBackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C831C961912B44200545AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dulio Denis";
+				TargetAttributes = {
+					6C831CBE1912B44300545AAC = {
+						TestTargetID = 6C831C9D1912B44200545AAC;
+					};
+				};
+			};
+			buildConfigurationList = 6C831C991912B44200545AAC /* Build configuration list for PBXProject "SpriteKitTransparentBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C831C951912B44200545AAC;
+			productRefGroup = 6C831C9F1912B44200545AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C831C9D1912B44200545AAC /* SpriteKitTransparentBackground */,
+				6C831CBE1912B44300545AAC /* SpriteKitTransparentBackgroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C831C9C1912B44200545AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C831CBA1912B44300545AAC /* Images.xcassets in Resources */,
+				6C831CAC1912B44200545AAC /* InfoPlist.strings in Resources */,
+				6C831CB51912B44300545AAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C831CBD1912B44300545AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C831CCB1912B44300545AAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C831C9A1912B44200545AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C831CB81912B44300545AAC /* ViewController.m in Sources */,
+				6C831CB21912B44300545AAC /* AppDelegate.m in Sources */,
+				6C831CAE1912B44200545AAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C831CBB1912B44300545AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C831CCD1912B44300545AAC /* SpriteKitTransparentBackgroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C831CC51912B44300545AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C831C9D1912B44200545AAC /* SpriteKitTransparentBackground */;
+			targetProxy = 6C831CC41912B44300545AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C831CAA1912B44200545AAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C831CAB1912B44200545AAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C831CB31912B44300545AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C831CB41912B44300545AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C831CC91912B44300545AAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C831CCA1912B44300545AAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C831CCE1912B44300545AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C831CCF1912B44300545AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C831CD11912B44300545AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteKitTransparentBackground/SpriteKitTransparentBackground-Prefix.pch";
+				INFOPLIST_FILE = "SpriteKitTransparentBackground/SpriteKitTransparentBackground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C831CD21912B44300545AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteKitTransparentBackground/SpriteKitTransparentBackground-Prefix.pch";
+				INFOPLIST_FILE = "SpriteKitTransparentBackground/SpriteKitTransparentBackground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6C831CD41912B44300545AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpriteKitTransparentBackground.app/SpriteKitTransparentBackground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteKitTransparentBackground/SpriteKitTransparentBackground-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpriteKitTransparentBackgroundTests/SpriteKitTransparentBackgroundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6C831CD51912B44300545AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpriteKitTransparentBackground.app/SpriteKitTransparentBackground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteKitTransparentBackground/SpriteKitTransparentBackground-Prefix.pch";
+				INFOPLIST_FILE = "SpriteKitTransparentBackgroundTests/SpriteKitTransparentBackgroundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C831C991912B44200545AAC /* Build configuration list for PBXProject "SpriteKitTransparentBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C831CCE1912B44300545AAC /* Debug */,
+				6C831CCF1912B44300545AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C831CD01912B44300545AAC /* Build configuration list for PBXNativeTarget "SpriteKitTransparentBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C831CD11912B44300545AAC /* Debug */,
+				6C831CD21912B44300545AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C831CD31912B44300545AAC /* Build configuration list for PBXNativeTarget "SpriteKitTransparentBackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C831CD41912B44300545AAC /* Debug */,
+				6C831CD51912B44300545AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C831C961912B44200545AAC /* Project object */;
+}
