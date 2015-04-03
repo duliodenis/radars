@@ -9,7 +9,7 @@ Dulio Denis<br>03-Apr-2015 12:26 PM
 ####Summary:
 Currently, in Xcode 6.2 and below, it is impossible to Refactor Swift code. This is only currently provided in Objective-C and C. This enhancement would align Swift to these other two languages.
 
-![](https://raw.githubusercontent.com/duliodenis/radars/master/20415947/art/RefactorInSwift/png)
+![](https://raw.githubusercontent.com/duliodenis/radars/master/20415947/art/RefactorInSwift.png)
 
 ####Steps to Reproduce:
 1. Write some Swift code
